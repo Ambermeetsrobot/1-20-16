@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+}
+.column {
+  float: left;
+  width: 33%;
+  text-align: center;
+  border-right: 1px solid white;
+}
+
+.column h2 {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+
+.column p {
+  color: white;
+  font-style: oblique;
+}
+
+
+img {
+  width: 300px;
+}
+
+#nav {
+	width: 100%;
+  float: right;
+	margin: 0 0 3em 0;
+	padding: 0;
+	list-style: none;
+	background-color: white;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc; }
+
+#nav li a {
+	float: right;
+  padding: 8px 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  border-right: 1px solid #ccc; }
